@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0%
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 20vh 2vh 20vh;
+    background-color: aquamarine;
+}
+.nav-logo{
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav-menu-content ul{
+    display: flex;
+    justify-content:
+    space-between;
+}
+.nav-menu-content ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+.nav-menu-content ul li a{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
