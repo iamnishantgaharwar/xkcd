@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>XKCD | rtCamp</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <div class="container">
+        <nav class="nav-logo"><a href="index.html">XKCD</a></nav>
+        <ul class="list-items">
+            <li class="item "><a class="btn-animation" href="signin.html">Sign In</a></li>
+            <li class="item "><a class="btn-animation active" href="signup.html">Sign Up</a></li>
+        </ul>
+    </div>
+    <!-- Form Section  -->
+    <div class="form-container">
+        <div class="form-card">
+            <div class="login-card-logo">XKCD Register</div>
+            <form action="#" method="post" onsubmit="return emptyString()">
+                <input class="input-item" type="text" name="userName" id="userNameID" placeholder="Name" size="30"><br>
+                <input class="input-item" type="text" name="userEmail" id="userEmailID" placeholder="Email" size="30" autocomplete="off"><br>
+                <input class="input-item" type="password" name="userPass" id="userPassID" placeholder="Password" size="30"><br>
+                <input class="input-item" type="password" name="userCnfPass" id="userCnfPassID" placeholder="Confirm Password" size="30"><br>
+                <input class="btn btn-animation" type="submit" value="Sign Up">
+            </form>
+            <a href="signin.html">Already have an account?</a>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

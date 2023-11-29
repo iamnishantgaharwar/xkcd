@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,700&display=swap');
+*{
+    font-family: Poppins, sans-serif;
+    background-color: #ecf0f1;
+    
+}
+:root{
+    --black: #2d3436;
+    --white: #ecf0f1;
+    --red: #ff3333;
+    color: #2d3436;
+}
+.active {
+    border: 2px solid var(--black);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    align-items: center;
+}
+.nav-logo{
+    font-size: xx-large;
+    font-weight: 400;
+    cursor: pointer;
+    color: var(--red);
+}
+.list-items{
+    display: flex;
+    list-style: none;
+}
+.item{
+    padding: 8px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+    padding: 8px 20px;
+}
+a:hover {
+    border-radius: 4px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+}
+.heading-text {
+    margin-bottom: 10px;
+}
+.btn {
+    cursor: pointer;
+    border: 1px solid var(--black);
+    padding: 8px 20px;
+    background-color: transparent;
+}
+.btn-animation:hover{
+    transition: ease-in-out 350ms;
+    box-shadow: inset 0px 0px 12px 40px var(--black);
+    color: var(--white);
+}
+.input-item {
+    font-size: large;
+    margin: 4px 0px;
+    padding: 2px;
+    border: 2px solid var(--black);
+}
+.input-item:focus {
+    outline-color: var(--black);
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-offset: 1px;
+}
+
+
+
+
+/* Sign In Css */
+
+.form-container {
+    display: flex;
+    height: 95vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-card {
+    border: 1px solid var(--black);
+    padding: 100px 50px;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 5px 10px var(--black);
+}
+.form-card a {
+    padding: 0;
+    font-size: small;
+    text-decoration-line: underline;
+}
+.errors {
+    color: var(--red);
+}
+

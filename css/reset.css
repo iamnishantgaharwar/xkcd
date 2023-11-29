@@ -1,0 +1,30 @@
+/* Reset and Normalize Styles */
+
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove underlines from links */
+a {
+    text-decoration: none;
+}
+
+/* Reset heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin: 0;
+}
+
+/* Remove borders and outlines on form elements */
+button, input {
+    border: none;
+    outline: none;
+}
